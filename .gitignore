@@ -1,0 +1,6 @@
+API/node_modules
+API/package-lock.json
+Scrapper/node_modules
+.env
+Scrapper/package-lock.json
+Other/

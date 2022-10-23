@@ -1,0 +1,19 @@
+{
+	"name": "scrapper",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"run": "ts-node src/index.ts"
+	},
+	"keywords": [],
+	"author": "AriusII - Johan Coureuil",
+	"license": "ISC",
+	"dependencies": {
+		"@prisma/client": "^4.5.0",
+		"dotenv": "^16.0.3",
+		"prisma": "^4.5.0",
+		"ts-node": "^10.9.1"
+	}
+}

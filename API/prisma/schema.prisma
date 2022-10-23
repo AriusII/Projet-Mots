@@ -1,0 +1,23 @@
+generator client {
+	provider = "prisma-client-js"
+}
+
+datasource db {
+	provider = "mysql"
+	url      = env("DATABASE_URL")
+}
+
+model words {
+	id            Int     @id @default(autoincrement())
+	web_page      String  @default("") @db.LongText
+	first_letter  String  @db.LongText
+	word          String  @db.LongText
+	word_length   Int
+	consonnes     String? @db.LongText
+	c_length      Int?
+	c_unique      String? @db.LongText
+	voyelles      String? @db.LongText
+	v_length      Int?
+	v_unique      String? @db.LongText
+	double_letter String? @db.LongText
+}
